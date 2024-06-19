@@ -1,0 +1,139 @@
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    background-color: #FFE6E6;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 0;
+}
+#navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#nav-items {
+    display: flex;
+    gap: 24px;
+    color: black;
+}
+
+.link-div {
+    display: flex;
+    flex-direction: column;
+}
+.nav-links {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: #FC8B8B;
+    transition: 0.2s;
+}
+.nav-under {
+    background-color: black;
+    width: 100%;
+    height:0px;
+}
+
+.nav-links:hover > .nav-under {
+    .nav-under{
+        height:2px;
+    }
+    
+}
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.subtitles {
+    margin: 4px;
+    opacity: 100%;
+    transition: opacity 2s;
+}
+
+.button {
+    margin-top: 16px;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    
+}
+
+.button:hover {
+    background-color: #B50036;
+    transition: 0.2s;
+}
+
+
+#about {
+    margin-top: 100px;
+    height: 100vh;
+}
+#help {
+    color: #FC8B8B;
+}
+
+#blueprint {
+    color: #6EB6FF;
+}
+
+#final-project {
+    color: #97CB55;
+}
+
+.twocolumns {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    text-align: justify;
+}
+
+#portrait {
+    width: 240px;
+    border: solid white 4px;
+}
+#specialties {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 46px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    margin-left: -20%;
+    margin-right: -20%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.s-items {
+    padding: 8px 50px;
+    border: black solid 2px;
+    border-radius: 32px;
+}
+
+.s-items:hover {
+    color: white;
+    background-color: #6EB6FF;
+    transition: 0.2s;
+    border:  #6EB6FF solid 2px;
+}
+
+#contact {
+    background-color: #3C354B;
+    height: 150px;
+    border-radius: 40px 40px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 0;
+}
